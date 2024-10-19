@@ -1,0 +1,49 @@
+.NewPostBar {
+  display: flex;
+  flex-direction: column;
+  background-color: #56357b; 
+  padding: 20px;
+  border-radius: 8px;
+  color: #f9f9f9; 
+}
+
+.NewPostBar h2 {
+  margin-bottom: 20px;
+  color: #e0e0e0; 
+}
+
+.NewPostBar input[type="text"],
+.NewPostBar textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc; 
+  background-color: #f4f4f4; 
+  color: #333; 
+}
+
+.NewPostBar input[type="file"] {
+  margin-bottom: 10px;
+}
+
+.NewPostBar button {
+  background-color: #5cb85c; 
+  color: white; 
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; 
+}
+
+.NewPostBar button:hover {
+  background-color: #4cae4c;
+}
+
+.NewPostBar progress {
+  width: 100%;
+  margin-top: 10px;
+  background-color: #e0e0e0; 
+  color: #3a55ea; 
+}

@@ -1,0 +1,72 @@
+/* General styling for a cleaner, modern look */
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f7fa;
+  color: #333;
+}
+
+.Article {
+  max-width: 1000px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+label {
+  margin-left: 10px;
+  font-weight: 600;
+  color: #555;
+}
+
+.A1 {
+  display: block;
+  margin-top: 15px;
+  padding: 10px;
+  background-color: #f1f3f5;
+  border-radius: 5px;
+}
+
+.Title {
+  display: block;
+  margin: 20px auto;
+  padding: 15px;
+  width: calc(100% - 30px);
+  background-color: #f1f3f5;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.Tags {
+  display: block;
+  margin: 20px auto;
+  padding: 12px;
+  width: calc(100% - 30px);
+  background-color: #eef2f7;
+  border-radius: 8px;
+  color: #444;
+}
+
+textarea {
+  margin: 20px auto;
+  width: calc(100% - 30px);
+  height: 150px;
+  padding: 15px;
+  border-radius: 8px;
+  border: 1px solid #d78e8e;
+  background-color: #accdee;
+  font-size: 1rem;
+  color: #333;
+}
+
+@media (max-width: 768px) {
+  .Article, .Title, .Tags, textarea {
+    width: calc(100% - 20px);
+    padding: 15px;
+  }
+}
